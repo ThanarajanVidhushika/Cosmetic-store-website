@@ -1,0 +1,40 @@
+.img img{
+    width: 100px;
+    margin-left: 50px;
+    flex: auto
+}
+.text {
+    flex: 1; 
+    display: flex;
+    align-items: center;
+    margin-left: 15px; 
+}
+.content{
+    display:flex;
+}
+
+#txt{
+    color: rgb(0, 0, 6);
+    font-size: 25px;
+    padding-top: 5px;
+}
+
+.animated-button{
+    background-color: rgb(64, 64, 235);
+    display: block;
+    padding: 15px 20px;
+    align-items: center;
+    color: rgb(243, 248, 252);
+    cursor: pointer;
+    transition: transform 0.3 ease-in-out;
+    margin: auto;
+    border-radius: 20px;
+    width: 200px;
+    text-align: center;
+    margin-top: 350px;
+    
+   
+}
+.animated-button:hover{
+    background-color: #0521f4;
+}

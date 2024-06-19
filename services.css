@@ -1,0 +1,62 @@
+body {
+    background-color: white;
+    color: black;
+	margin-top: 100px; 
+       
+  }
+  
+  /* Common styles for all layouts */
+  .container {
+    margin-left: 200px;
+	margin-right: 200px;
+    display: flex;
+    align-items: center;
+  }
+  .text {
+    margin-left: 100px;
+	font-size: 27px; 
+	text-align: justify; 
+  }
+
+  
+  /* Text beside image */
+  .text-beside-image img {
+    max-width: 500px; 
+  }
+
+  /* Image beside text */
+  .image-beside-text img {
+    max-width: 400px;
+	text-align:center;
+  }
+  .image-beside-text .text {
+    margin-right: 100px;
+	margin-left: 10px;
+  }
+
+  /* Text aside image */
+  .text-aside-image img {
+    max-width: 400px; 
+	text-align: center; 
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+body{
+    
+   
+    background-position: center;
+    box-sizing: border-box;
+    /*edit this part according to your html file and css file keep background position and box sizing*/
+
+}
+
+
+
+        
+    

@@ -1,0 +1,41 @@
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            background-image: url("bg7.jpg");
+    background-position: center;
+    box-sizing: border-box;
+            }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color:transparent;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+         
+        #design{
+           display:flex;
+            justify-content:center;
+            align-items:center;
+            min-height:150vh;
+            width:100%;
+         }
+        
+        .registerbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+        h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }

@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+body{
+    
+   
+    background-position: center;
+    box-sizing: border-box;
+    /*edit this part according to your html file and css file keep background position and box sizing*/
+
+}
+
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+.cta button {
+    margin-right: 10px;
+}
+button {
+    background-color:black;
+    border: 1px solid black;
+    color: white;
+    padding: 8px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+	border-radius: 8px;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+.categories {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.category {
+    text-align: center;
+}
+
+.featured-products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+}
+.product-description {
+    text-align: center;
+}
+
+.product {
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+
+.product img {
+    transition: transform 0.3s;
+}
+
+.product:hover img {
+    transform: scale(1.1);
+}
+
+
+
+

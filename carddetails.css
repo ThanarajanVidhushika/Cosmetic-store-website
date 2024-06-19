@@ -1,0 +1,59 @@
+.enc img{
+    width: 30px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+body{
+    background-color: rgb(251, 198, 249);
+}
+
+.cont{
+    display: flex;
+    padding: 5px;
+    margin-left: 230px;
+  
+}
+.txt{
+    padding: 5px;
+    font-size: 18px
+}
+.sve{
+   
+    margin-left: 250px;
+    font-size: 18px
+    
+}
+#h1{
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 10px;
+}
+
+
+fieldset{
+    align-items: center;
+    width: 1000px;
+    height: 330px;
+    margin: 0 auto;
+    font-size: 20px;
+    background-color: rgb(245, 209, 239);
+    
+}
+.animated-button{
+    background-color: rgb(41, 222, 21);
+    display: block;
+    padding: 15px 20px;
+    align-items: center;
+    color: rgb(243, 248, 252);
+    cursor: pointer;
+    margin: auto;
+    border-radius: 80px;
+    width: 150px;
+    text-align: center;
+    font-size: 25px;
+    
+    
+   
+}
+.animated-button:hover{
+    background-color: #28c209;
+}
